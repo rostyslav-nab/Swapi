@@ -1,0 +1,19 @@
+.random-planet{
+  display: flex;
+  .planet-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 35px;
+  }
+}
+
+.spiner {
+  margin: 0 auto;
+}
+
+.item-info{
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+}
