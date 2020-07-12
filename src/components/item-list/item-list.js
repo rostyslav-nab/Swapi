@@ -40,7 +40,7 @@ export default class ItemList extends React.Component{
 
         return(
             <div className={'item-list'}>
-                <ul className={'item-list list-group'}>
+                <ul className={'item-list list-group list-custom'}>
                     {items}
                 </ul>
             </div>

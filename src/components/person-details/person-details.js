@@ -43,27 +43,27 @@ export default class PersonDetails extends React.Component{
 
         return(
             <div className={'planet-details card'}>
-                <img src={`https://starwars-visualguide.com/assets/img/characters/${id}.jpg`} alt="character"/>
-                <div className={'card-body'}>
+                <img className={'img-custom'} src={`https://starwars-visualguide.com/assets/img/characters/${id}.jpg`} alt="character"/>
+                <div className={'card-body card-custom'}>
                     <h4>{name}</h4>
                     <ul className={'list-group list-group-flush'}>
-                        <li className={'list-group-item'}>
+                        <li className={'list-group-custom'}>
                             <span className={'term'}>
-                                Gender
+                                Gender:
                             </span>
-                                <span>: {gender}</span>
+                            <span className={'item-data'}> {gender}</span>
                         </li>
-                        <li className={'list-group-item'}>
+                        <li className={'list-group-custom'}>
                             <span className={'term'}>
-                                Birth Year
+                                Birth Year:
                             </span>
-                            <span>: {birthYear}</span>
+                            <span className={'item-data'}> {birthYear}</span>
                         </li>
-                        <li className={'list-group-item'}>
+                        <li className={'list-group-custom'}>
                             <span className={'term'}>
-                                Eye Color
+                                Eye Color:
                             </span>
-                            <span>: {eyeColor}</span>
+                            <span className={'item-data'}> {eyeColor}</span>
                         </li>
                     </ul>
                 </div>

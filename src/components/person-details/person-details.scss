@@ -3,3 +3,27 @@ img{
   height: 200px;
   margin: 10px;
 }
+
+.img-custom{
+  height: 200px;
+  width: 150px;
+  margin: 15px auto;
+}
+
+.item-data{
+  color: white;
+  font-weight: bold;
+}
+
+.list-group-custom{
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+}
+
+.card-custom{
+  text-align: center;
+  h4{
+    font-size: 30px;
+  }
+}

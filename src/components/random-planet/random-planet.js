@@ -10,14 +10,14 @@ class RandomPlanet extends React.Component{
         loading: true
     }
 
-    componentDidMount() {
-        this.updatePlanet()
-        this.interval = setInterval(this.updatePlanet, 5000)
-    }
-
-    componentWillUnmount() {
-        clearInterval(this.interval)
-    }
+    // componentDidMount() {
+    //     this.updatePlanet()
+    //     this.interval = setInterval(this.updatePlanet, 5000)
+    // }
+    //
+    // componentWillUnmount() {
+    //     clearInterval(this.interval)
+    // }
 
     onPlanetLoaded=(planet)=>{
         this.setState({planet,
@@ -50,7 +50,7 @@ export default RandomPlanet
 const PLanetView = ({planet}) =>{
     const { id, name, diameter, rotationPeriod, population }= planet
     return <>
-        <img src={`https://starwars-visualguide.com/assets/img/planets/${id}.jpg`} className={'planet-img'}/>
+        <img src={`https://starwars-visualguide.com/assets/img/planets/${id}.jpg`} className={'planet-img'} alt={'random-planet'}/>
         <div>
             <h2>{name}</h2>
             <ul className={'list-group list-group-flush'}>

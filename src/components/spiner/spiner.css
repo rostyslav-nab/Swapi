@@ -2,6 +2,9 @@
     0% { opacity: 1 }
     100% { opacity: 0 }
 }
+.my-conf{
+    margin: 0 auto;
+}
 .ldio-civf9robhs5 div {
     left: 98px;
     top: 60px;

@@ -76,9 +76,3 @@ export default class SwapiService {
         }
     }
 }
-
-const api = new SwapiService()
-
-api.getAllPeople().then(people=>{
-    console.log(people)
-})
