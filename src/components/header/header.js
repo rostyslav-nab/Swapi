@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 export const Header = () =>{
     return(
         <div className={'header d-flex'}>
-            <h1 className={'main-header'}><a href="#">StarDB</a></h1>
+            <h1 className={'main-header'}><a href="https://kyiv.codes/">StarDB</a></h1>
             <ul className={'d-flex'}>
                 <li><Link to='/'>Films</Link></li>
                 <li><Link to='/planet'>Planets</Link></li>

@@ -11,7 +11,7 @@ export const ItemList = (props) =>{
             .then((people)=>{
                 setPeopleList(people)
             })
-    }, [])
+    }, []);
 
     const renderItems = (arr) =>{
         return arr.map(({id, name}) =>{

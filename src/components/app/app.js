@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {Header} from "../header/header"
-import RandomPlanet from "../random-planet/random-planet"
+import {RandomPlanet} from "../random-planet/random-planet"
 import {ItemList} from "../item-list/item-list"
 import PersonDetails from "../person-details/person-details"
 import {BrowserRouter as Router, Route} from "react-router-dom"
