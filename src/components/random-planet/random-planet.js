@@ -10,14 +10,14 @@ class RandomPlanet extends React.Component{
         loading: true
     }
 
-    // componentDidMount() {
-    //     this.updatePlanet()
-    //     this.interval = setInterval(this.updatePlanet, 5000)
-    // }
-    //
-    // componentWillUnmount() {
-    //     clearInterval(this.interval)
-    // }
+    componentDidMount() {
+        this.updatePlanet()
+        this.interval = setInterval(this.updatePlanet, 5000)
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.interval)
+    }
 
     onPlanetLoaded=(planet)=>{
         this.setState({planet,
@@ -40,7 +40,7 @@ class RandomPlanet extends React.Component{
             {spinner}
             {content}
         </div>
-    )
+    ) 
 }
 }
 

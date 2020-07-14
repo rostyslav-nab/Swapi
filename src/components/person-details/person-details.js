@@ -1,6 +1,6 @@
 import React from "react"
 import './person-details.scss'
-import SwapiService from "../../services/swapi";
+import SwapiService from "../../services/swapi"
 
 export default class PersonDetails extends React.Component{
 
@@ -15,10 +15,11 @@ export default class PersonDetails extends React.Component{
     }
 
     componentDidUpdate(prevProps) {
-        if(this.props.personId !== prevProps.personID){
+        if(this.props.personId !== prevProps.personId){
             this.updatePerson()
         }
     }
+
 
     updatePerson(){
         const {personId} = this.props
