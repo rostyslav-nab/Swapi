@@ -22,7 +22,7 @@ export const App = () =>{
                     <div className={'col-md-6'}>
                         <ItemList onItemSelected={onPersonSelected}/>
                     </div>
-                    <div className={'col-md-3'}>
+                    <div className={'col-md-4'}>
                         <PersonDetails personId={selectedPerson}/>
                         {/*<Route path='/planet' component={PlanetPage}/>*/}
                         {/*<Route path='/starship' component={StarshipPage}/>*/}

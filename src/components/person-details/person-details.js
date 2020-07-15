@@ -2,6 +2,7 @@ import React from "react"
 import './person-details.scss'
 import SwapiService from "../../services/swapi"
 
+
 export default class PersonDetails extends React.Component{
 
     swapiService = new SwapiService()
